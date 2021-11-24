@@ -1,0 +1,29 @@
+div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+input {
+    padding: 4px;
+    width: 300px;
+}
+
+ul {    
+    width: inherit;
+    margin-top: -1px;
+    list-style: none;
+    padding: 0;
+}
+
+ul>li {
+    border: 1px solid;
+    padding: 4px;
+    width: 300px;
+    cursor: pointer;
+}
+
+.active {
+    background-color: aqua;
+}
